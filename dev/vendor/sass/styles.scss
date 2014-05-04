@@ -1,0 +1,15 @@
+@import "reset";
+@import "config";
+
+body {
+	font-size: 10px;
+	color: $color;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+p {
+	font-size: 2em;
+}

@@ -1,0 +1,21 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gabrielneutzling\/www\/frontstarter\/dev\/vendor\/sass\/_reset\.scss}line{font-family:\000031}}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gabrielneutzling\/www\/frontstarter\/dev\/vendor\/sass\/styles\.scss}line{font-family:\000034}}
+body {
+  font-size: 10px;
+  color: #aaaaaa;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gabrielneutzling\/www\/frontstarter\/dev\/vendor\/sass\/styles\.scss}line{font-family:\000039}}
+h1 {
+  font-size: 5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gabrielneutzling\/www\/frontstarter\/dev\/vendor\/sass\/styles\.scss}line{font-family:\0000313}}
+p {
+  font-size: 2em;
+}
