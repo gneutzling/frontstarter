@@ -2,7 +2,7 @@
 	"name": "frontstarter",
 	"version": "1.0.0",
 	"title": "Front Starter ",
-	"description": "Uma estrutura básica para inicializar projetos no lado do frontend.",
+	"description": "A simple and lightweight kit to structure your web apps.",
 	"author": {
 		"name": "Gabriel Neutzling",
 		"email": "gabrielneutzling@gmail.com",

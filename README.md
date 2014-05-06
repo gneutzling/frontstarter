@@ -4,6 +4,11 @@ This is not a front end framework!
 
 Front Start is a simple and lightweight kit to structure your web apps and run some essential tasks.
 
+## Dependencies
+
+- [node.js](http://nodejs.org/)
+- [grunt](http://gruntjs.com/)
+
 ## How to use it?
 
 Clone this repository:
@@ -22,8 +27,6 @@ Now you just need to run Grunt:
 ```
 grunt
 ```
-
-*ps.: make sure you have grunt installed.*
 
 ## Configured tasks
 
