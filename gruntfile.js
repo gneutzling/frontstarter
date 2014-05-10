@@ -133,6 +133,29 @@ module.exports = function (grunt) {
 				files: '<%= config.dev %>/vendor/js/**/*.js',
 				tasks: ['uglify:dev']
 			}
+		},
+
+		// FTP deployment
+		// make sure you have .ftppass configured.
+		'ftp-deploy': {
+			build: {
+				auth: {
+					host: 'ftp.yoursite.com',
+					port: 21,
+					authKey: 'key1'
+				},
+				src: '<%= config.dist %>/',
+    			dest: '/path/to/destination/folder',
+				exclusions: [
+					'.DS_Store',
+					'Thumbs.db',
+					'.git',
+					'.gitignore',
+					'.sublime-project',
+					'.sublime-workspace',
+					'README.md'
+				]
+			}
 		}
 
 	});
@@ -157,5 +180,15 @@ module.exports = function (grunt) {
 		'htmlmin:dist',
 		'uglify:dist',
 		'compress:build'
+	]);
+
+	grunt.registerTask('deploy', [
+		'clean:dist',
+		'clean:build',
+		'copy:dist',
+		'sass:dist',
+		'htmlmin:dist',
+		'uglify:dist',
+		'ftp-deploy:build'
 	]);
 };
