@@ -42,6 +42,9 @@ grunt
 - grunt build
 	- Run dist tasks.
 	- Creates a zip with final files.
+- grunt deploy
+	- Run dist tasks.
+	- Sends files to server.
 
 ## Contributing
 
